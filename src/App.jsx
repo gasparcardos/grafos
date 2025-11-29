@@ -355,7 +355,7 @@ function App() {
             <h3 style={{fontSize: '0.9rem', marginBottom: '8px'}}>Documentación</h3>
             <div style={{display: 'flex', gap: '5px', flexDirection: 'column'}}>
                 <a 
-                    href="/manual_usuario.pdf" 
+                    href="./manual_usuario.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-secondary"
@@ -364,7 +364,7 @@ function App() {
                     📘 Manual de Usuario
                 </a>
                 <a 
-                    href="/documentacion_tecnica.pdf" 
+                    href="./documentacion_tecnica.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-secondary"
