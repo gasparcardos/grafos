@@ -350,6 +350,30 @@ function App() {
             ))
           ) : <div style={{fontSize: '0.7rem', color: '#999'}}>Vacia</div>}
         </div>
+        <div style={{marginTop: 'auto', paddingTop: '20px'}}>
+            <hr style={{ border: 0, borderTop: '1px solid #eee', margin: '10px 0' }} />
+            <h3 style={{fontSize: '0.9rem', marginBottom: '8px'}}>Documentación</h3>
+            <div style={{display: 'flex', gap: '5px', flexDirection: 'column'}}>
+                <a 
+                    href="/manual_usuario.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary"
+                    style={{textDecoration: 'none', textAlign: 'center', fontSize: '0.75rem', display: 'block'}}
+                >
+                    📘 Manual de Usuario
+                </a>
+                <a 
+                    href="/documentacion_tecnica.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-secondary"
+                    style={{textDecoration: 'none', textAlign: 'center', fontSize: '0.75rem', display: 'block'}}
+                >
+                    🛠️ Doc. Técnica
+                </a>
+            </div>
+        </div>
       </div>
     </div>
   );
